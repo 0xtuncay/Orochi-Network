@@ -40,6 +40,28 @@ Rebootluyoruz...
 ```
 sudo reboot
 ```
+
+```
+sudo apt install xrdp -y
+```
+
+```
+sudo systemctl enable xrdp
+```
+
+```
+sudo systemctl start xrdp
+```
+
+Kullanıcı adı oluşturucaz. şifre girin ardından size bikaç bişey sorar enterlayın en sonunda y yapın.
+
+```
+sudo adduser kullanıcıisminiz
+```
+
+![Ekran görüntüsü 2025-04-19 023543](https://github.com/user-attachments/assets/b3e4c13f-4b51-4360-a710-ed1ec7804fc6)
+
+
 # Burdan sonraki işlemlere pcmizden devam ediyoruz.
 
 Başlata gelip uzak masaüstü yazın. Ardından Çalıştırın. 
